@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Obtener clima con una API</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="weather__container">
+            <form action="" id="search-form">
+                <div class="search-box">
+                    <input type="text" autocomplete="off" placeholder="Buscar Ciudad" class="search" id="searchbox">
+                </div>
+            </form>
+            <div class="weather-card">
+                <div class="city" id="city">Lima, PE</div>
+
+                <div class="date" id="date">10/14/2021</div>
+                <div class="temperature">
+                    <img src="./images/temp-mid.png" alt="" class="temp-img" id="tempImg">
+                    <div class="temp" id="temp">14C</div>
+                </div>
+                <div class="range" id="range">12 C / 18C</div>
+                <div class="weather" id="weather">Weather: Con sol</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
